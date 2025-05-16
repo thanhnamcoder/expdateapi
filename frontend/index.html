@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function() {
+            const token = localStorage.getItem('access_token');
+            if (token) {
+                window.location.href = 'home.html';
+            } else {
+                window.location.href = 'login.html';
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Redirecting to Login...</h2>
+    </div>
+</body>
+</html>
