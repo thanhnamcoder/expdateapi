@@ -13,7 +13,7 @@ document.getElementById('registerForm').addEventListener('submit', async functio
     }
 
     try {
-        const response = await fetch('https://8813-115-78-8-142.ngrok-free.app/api/accounts/register/', {
+        const response = await fetch('https://expdateapi.onrender.com/api/accounts/register/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

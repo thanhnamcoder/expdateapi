@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     messageDiv.textContent = '';
 
     try {
-        const response = await fetch('https://8813-115-78-8-142.ngrok-free.app/api/token/', {
+        const response = await fetch('https://expdateapi.onrender.com/api/token/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
